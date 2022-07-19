@@ -278,6 +278,7 @@ nav {
 /*ナビゲーション部分*/
 
 .menu ul li a {
+    color: white;
     display: block;
     font-weight: bold;
     padding: 2em;
@@ -289,7 +290,7 @@ nav {
 
 .menu ul li a:hover {
     background-color: rgba(0, 0, 0, 1);
-    color: black;
+    color: white;
 }
 
 

@@ -1,4 +1,8 @@
 $(function(){
+    　$('.Toggle').click(function() {
+   $(this).toggleClass('active');
+  $('.menu').toggleClass('open');
+ });
     var _window = $(window),
         _header = $('.top-header'),
         heroBottom;

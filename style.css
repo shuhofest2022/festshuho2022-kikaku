@@ -10,7 +10,10 @@ body {
     padding: 0;
     color: white;
 }
-
+.title {
+    margin-top: 5rem;
+}
+    
 .top-header {
     z-index: 10;
     box-sizing: border-box;

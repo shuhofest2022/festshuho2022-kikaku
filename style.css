@@ -121,6 +121,17 @@ body {
     background: #fff;
     padding: 50px 20px;
 }
+.area2 {
+    max-width: 800px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    display: none;
+    opacity: 0;
+    background: #fff;
+    padding: 50px 20px;
+}
 
 .link {
     display: flex;
@@ -160,7 +171,13 @@ body {
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
-
+.area2.is-active {
+    display: block;
+    margin: auto;
+    animation-name: displayAnime;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
 @keyframes displayAnime {
     from {
         opacity: 0;

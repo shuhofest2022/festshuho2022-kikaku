@@ -294,7 +294,7 @@ nav {
 
 
 .menu {
-
+    color: white;
     text-align: center;
     background-color: rgba(35,82,196, 1);
     transition: 0.5s ease;
